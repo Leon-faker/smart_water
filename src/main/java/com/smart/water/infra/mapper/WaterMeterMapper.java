@@ -1,0 +1,13 @@
+package com.smart.water.infra.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.smart.water.infra.entity.WaterMeter;
+
+/**
+ * WaterMeterMapper
+ * @author DougLea
+ * @since 2023-03-27
+ */
+public interface WaterMeterMapper extends BaseMapper<WaterMeter> {
+
+}
